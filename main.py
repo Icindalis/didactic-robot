@@ -1,5 +1,4 @@
-a = int(input())
-b = int(input())
-summ = a + b
+def summ(a: int, b: int) -> int:
+    return a + b
 
-print(summ)
+print(summ(int(input()), int(input())))
